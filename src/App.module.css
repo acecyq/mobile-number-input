@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header_container {
+  display: block;
+}
+
+.header_text {
+  text-align: center;
+}
+
+.otp_container {
+  display: flex;
+  justify-content: center;
+}

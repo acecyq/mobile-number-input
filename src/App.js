@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import OtpInput from "./components/OtpInput/OtpInput";
+import styles from "./App.module.css";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className={styles.app}>
+      <header>
+        <div className={styles.header_container}>
+          <h1 className={styles.header_text}>MOBILE NUMBER INPUT</h1>
+        </div>
+      </header>
+
+      <section className={styles.otp_container}>
+        <OtpInput />
+      </section>
+    </div>
+  );
 }
 
 export default App;
