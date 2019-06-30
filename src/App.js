@@ -4,10 +4,10 @@ import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className={styles.app}>
+    <div>
       <header>
         <div className={styles.header_container}>
-          <h1 className={styles.header_text}>MOBILE NUMBER INPUT</h1>
+          <h6 className={styles.header_text}>MOBILE NUMBER INPUT</h6>
         </div>
       </header>
 
